@@ -28,7 +28,7 @@ def get_fact_bin_dir() -> str:
     '''
     Returns the absolute path of the bin directory
     '''
-    return str(SRC_DIR_PATH / 'bin')
+    return str("/usr/local/bin")
 
 
 def file_is_empty(file_path) -> bool:

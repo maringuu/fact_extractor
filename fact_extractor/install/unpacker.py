@@ -18,7 +18,7 @@ from helperFunctions.install import (
     pip_install_packages,
 )
 
-BIN_DIR = Path(__file__).parent.parent / 'bin'
+BIN_DIR = Path("/usr/local/bin")
 
 DEPENDENCIES = {
     # Ubuntu
